@@ -1,0 +1,49 @@
+.image{
+    width:330px;
+    height: 330px;
+    box-shadow: 20px -20px  #19FFFF;
+    transition:1s ease-in;
+}
+
+.image:hover{
+    box-shadow: 30px -30px  #fa2f2f;
+}
+
+.para-400{
+    width:400px;
+}
+
+
+.hero-width{
+    width:450px;
+}
+.nav-items li{
+    border:2px solid #ffffff;
+    border-radius: 30px;
+    padding: 0 10px;
+    transition:0.5s ease-in;
+}
+
+.nav-items li:hover{
+    border:2px solid #19FFFF;
+}
+
+.project-box{
+    text-align: center;
+    
+    width: 300px;
+    border:2px solid #19FFFF;
+    border-radius: 30px;
+    padding: 20px;
+
+}
+
+.services-container{
+    margin-top:50px;
+    display: flex;
+    flex: 1;
+    flex-direction:row;
+    justify-content: space-evenly;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "test01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css":"tailwindcss -i ./src/style.css -o ./public/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^2.2.15"
+  }
+}
